@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    width: 100%;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  padding: 0;
+    overflow-x: hidden;
+  
+}
+
+
+section {
+  width: 100%;
+}
+
+
+p1 {
+    color:black;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 6px; 
+}
+
+
+h4 {
+    width: 90%;
+    font-size: 30px;
+    text-align: center;  
+    color:white;
+    margin-bottom:290px;
+    margin-left:290px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 70px; 
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px 2px black;
+    color:white;
+    
+
+}
+
+h2{
+    width: 90%;
+    font-size: 30px;
+    text-align: center;  
+    color:white;
+    margin-bottom:290px;
+    margin-left:290px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h3 {
+    width: 90%;
+    font-size: 30px;
+    text-align: center;  
+    color:white;
+    margin-bottom:290px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+p {
+    width: 90%;
+    font-size: 24px;
+    text-align: left;  
+    color:white;
+    margin-bottom:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+p1 {
+    width: 90%;
+    font-size: 24px;
+    text-align: left;  
+    color:white;
+    margin-bottom:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p2 {
+    border: 3px solid black;
+    margin-right:433px;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;  
+    color:white;
+    margin-top:auto;
+    font-family: 'Oswald', sans-serif;
+    flex-wrap: wrap;
+}
+
+p3 {
+    border: 3px solid black;
+    margin-right:auto;
+    width: 90%;
+    font-size: 20px;
+    text-align: left; 
+    justify-content:space-between;
+    color: black;
+    margin-top:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.competence {
+  border: 3px solid black;
+  padding: 20px;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  cursor: pointer;
+  box-shadow: 0 0 5px white;
+
+}
+
+.competence:hover {
+  transform: scale(1.1);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-right: 420px;
+    width: 90%;
+    height: 100px;
+}
+
+
+.python, .sql, .java, .js {
+    width: 180px;
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+    align-items:center;
+}
+
+.python {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8RED7UqmmNVEEnhokd_hl8192-oCm4UPRw&s');
+    
+}
+
+.sql {
+    background-image: url('https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png');
+}
+
+.java {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--programming-language-coding-logos-icons-1720088.png');
+}
+
+.js {
+    background-image: url('https://loopino.com.br/wp-content/uploads/2025/01/javascript.png.webp');
+}
+    
+
+h2 {
+    color: white;
+    margin-bottom:400px;
+    margin-left:200px;
+}
+
+
+/* Définir l'animation de clignotement */
+@keyframes blink {
+    0% {
+        opacity: 1; /* Visible */
+    }
+    50% {
+        opacity: 0; /* Transparent */
+    }
+    100% {
+        opacity: 1; /* Retour à visible */
+    }
+}
+
+
+nav { 
+     animation: blink 1s 2;
+}
+
+section {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#page1 {
+    background: linear-gradient(to bottom, #000000, #111106);
+
+}
+
+#page2 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #111106, #000000);
+}
+
+#page3 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #000000, #050505);
+}
+
+#page4 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #050505, #4B0082);
+    
+}
+
+#page5 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #4B0082, #050505);
+    
+}
+
+#page6 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #050505, #4B0082);
+    
+}
+
+/* Liens de navigation */
+nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(1, 1, 1, 1);
+    padding: 10px 4px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300px) scale(0.5);
+    opacity: 0;
+  }
+}
+.python, .sql, .java, .js {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 3px solid black;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease;
+}
+
+.python:hover, .sql:hover ,.java:hover, .js:hover  {
+    transform: scale(1.1) rotate(3deg);
+}
+
+@media (max-width: 480px) {
+    .logo-container {
+        width: 40%;
+        padding: 1px;
+        margin-right:370px;
+        align-items:center;
+        
+    }
+    
+    p2 {
+        width: 100%;
+        padding: 10px;
+        margin-right:300px;
+        margin-bottom:1px;
+        margin-top:1px;
+
+    }
+    h3 {
+        width: 100%;
+        padding: 10px;
+        margin-left:88px;
+        margin-bottom:120px;
+
+    }
+    p {
+        width: 100%;
+        padding: 10px;
+        margin-bottom:2px;
+        margin-right:50px;
+    }
+    .competence {
+        width: 100%;
+        padding: 10px;
+        margin-right:300px;
+    }
+    h2 {
+        width: 10%;
+        padding: 1px;
+        margin-left:268px;
+        margin-bottom:590px;
+        text-align: center;
+
+    }
+    
+    h4 {
+        width: 10%;
+        padding: 1px;
+        margin-left:268px;
+        margin-bottom:190px;
+        text-align: center;
+      
+    }
+    
+    h1 {
+        width: 100%;
+        padding: 1px;
+        margin-bottom:120px;
+        text-align: auto;
+        font-size:34px;
+      
+    }
+    
+     p1 {
+        width: 100%;
+        padding: 1px;
+        margin-bottom:120px;
+        text-align: center;
+        font-size:22px;
+      
+    }
+    
+    nav a {
+    text-decoration: none;
+    margin-right: 1px;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(1, 1, 1, 1);
+    padding: 3px 2px;
+    border-radius: 3px;
+}
+
+.python:hover, .sql:hover ,.java:hover, .js:hover  {
+    transform: scale(1.1) rotate(3deg);
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+
