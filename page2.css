@@ -1,0 +1,159 @@
+body {
+    font-size: 20px;          
+    text-align: left;              /* Aligner le texte à gauche */
+    height: auto;                  /* Laisser la hauteur s'ajuster au contenu */
+    margin-top: 200px;             /* Décalage du contenu vers le bas */
+    width: 100%;                   /* Utilise toute la largeur de l'écran */
+    scroll-behavior: smooth; /* Défilement fluide */
+}
+
+p1 {
+    color:black;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 6px; 
+}
+
+form {
+    margin: right;
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    border: 5px solid black;
+    background-color:  #fff ;
+    padding: 5px;
+    border: 6px double black;
+}
+
+
+
+
+
+p1 {
+    width: 90%;
+    font-size: 20px;
+    text-align: left;  
+    color:white;
+    margin-bottom:150px;
+}
+
+p2 {
+    border: 3px solid black;
+    margin-right:170px;
+    width: 90%;
+    font-size: 20px;
+    text-align: left;  
+    color:black;
+    margin-top:150px;
+}
+
+p3 {
+    border: 3px solid black;
+    margin-right:170px;
+    width: 90%;
+    font-size: 20px;
+    text-align: left; 
+    justify-content:space-between 
+    color:black;
+    margin-top:150px;
+}
+
+.python {
+  width: 200px;
+  height: 200px;
+  background-image: url('https://www.python.org/static/community_logos/python-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px auto;
+  border: 2px solid black; /* Ajoute une bordure noire pour la visibilité */
+  background-color: white; /* Ajoute un fond blanc derrière le logo */
+}
+
+
+
+
+
+
+h2 {
+    color: white;
+    margin-bottom:400px;
+    margin-left:200px;
+}
+
+
+/* Définir l'animation de clignotement */
+@keyframes blink {
+    0% {
+        opacity: 1; /* Visible */
+    }
+    50% {
+        opacity: 0; /* Transparent */
+    }
+    100% {
+        opacity: 1; /* Retour à visible */
+    }
+}
+
+
+nav { 
+     animation: blink 1s 2;
+}
+
+/* Sections */
+section {
+    height: 100vh; /* Chaque section occupe toute la hauteur de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#page1 {
+    color: white;
+    background-image: url('https://wallpaper.forfun.com/fetch/1b/1b600b0b975ffafc44bb4029f9b4fe6f.jpeg');
+    
+}
+
+#page2 {
+    
+    color: white;
+    background-color:black;
+}
+
+#page3 {
+    
+    color: white;
+    background-color:grey;
+    
+}
+
+#page4 {
+    
+    color: white;
+    background-color:grey;
+    
+}
+
+/* Liens de navigation */
+nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: yellow;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
